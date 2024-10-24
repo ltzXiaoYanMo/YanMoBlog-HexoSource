@@ -1,9 +1,7 @@
 ---
 title: YanMoBit的戳一戳回应是怎么实现的？
-tags: []
+tags: 技术分享
 id: '78'
-categories:
-  - - 技术分享
 date: 2024-01-22 02:35:32
 ---
 

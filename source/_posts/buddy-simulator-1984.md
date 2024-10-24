@@ -1,9 +1,7 @@
 ---
 title: Buddy Simulator 1984 - 来自上世纪的恐惧
-tags: []
+tags: 游戏推荐
 id: '288'
-categories:
-  - - 游戏推荐
 date: 2024-06-19 06:34:40
 ---
 

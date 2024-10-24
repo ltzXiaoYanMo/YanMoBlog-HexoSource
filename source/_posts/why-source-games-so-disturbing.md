@@ -1,9 +1,7 @@
 ---
 title: 为什么Source（起源）制作的游戏为何让人不安？
-tags: []
+tags: 杂谈
 id: '302'
-categories:
-  - - 杂谈
 date: 2024-07-03 14:26:49
 ---
 

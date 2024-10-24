@@ -1,9 +1,7 @@
 ---
 title: 暴力一锤：DDoS 服务商 OpenByte 乐子实录
-tags: []
+tags: 乐子分享
 id: '239'
-categories:
-  - - 乐子分享
 date: 2024-05-29 06:22:22
 ---
 

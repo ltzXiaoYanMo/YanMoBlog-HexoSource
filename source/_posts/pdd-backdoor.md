@@ -1,10 +1,7 @@
 ---
 title: PDD 内嵌提权代码，及动态下发dex分析
-tags: []
+tags: 技术分享-漏洞报告
 id: '233'
-categories:
-  - - technology
-    - 漏洞报告
 date: 2024-05-19 21:12:15
 ---
 

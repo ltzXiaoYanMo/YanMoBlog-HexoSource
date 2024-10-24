@@ -1,9 +1,7 @@
 ---
 title: Tailscale VPN：简便和高效的代名词
-tags: []
+tags: 技术分享
 id: '323'
-categories:
-  - - 技术分享
 date: 2024-07-19 23:48:59
 ---
 

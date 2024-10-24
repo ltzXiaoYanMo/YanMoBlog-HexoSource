@@ -1,9 +1,7 @@
 ---
 title: OneShot - 被历史埋藏五年的感人神作
-tags: []
+tags: 游戏推荐
 id: '41'
-categories:
-  - - 游戏推荐
 date: 2024-01-21 19:28:41
 ---
 

@@ -1,9 +1,7 @@
 ---
 title: 'LNMP Part 2: 使用编译安装 Nginx'
-tags: []
+tags: 技术分享
 id: '199'
-categories:
-  - - 技术分享
 date: 2024-05-04 02:59:55
 ---
 

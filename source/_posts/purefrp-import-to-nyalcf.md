@@ -1,9 +1,7 @@
 ---
 title: 如何将本地 LoCyanPureFrp 导入到 NyaLCF 中
-tags: []
+tags: LoCyan 事务
 id: '184'
-categories:
-  - - Locyan 事务
 date: 2024-05-02 10:40:34
 ---
 

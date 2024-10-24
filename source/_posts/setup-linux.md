@@ -1,9 +1,7 @@
 ---
 title: Linux 小白向：装完Linux之后应该干什么
-tags: []
+tags: 技术分享
 id: '262'
-categories:
-  - - 技术分享
 date: 2024-06-10 23:20:42
 ---
 

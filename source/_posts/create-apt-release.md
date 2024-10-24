@@ -1,9 +1,7 @@
 ---
 title: 如何创建自己的 apt 软件源
-tags: []
+tags: 技术分享
 id: '410'
-categories:
-  - - 技术分享
 date: 2024-09-23 21:14:31
 ---
 

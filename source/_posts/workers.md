@@ -2,8 +2,6 @@
 title: Untitled Post - 6
 tags: []
 id: '106'
-categories:
-  - - uncategorized
 date: 2024-02-06 02:41:45
 ---
 

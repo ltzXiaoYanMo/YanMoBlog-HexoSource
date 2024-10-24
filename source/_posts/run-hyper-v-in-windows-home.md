@@ -1,9 +1,7 @@
 ---
 title: 在 Windows Home 版本中启动 Hyper-V 功能
-tags: []
+tags: 技术分享
 id: '353'
-categories:
-  - - 技术分享
 date: 2024-08-08 19:48:01
 ---
 

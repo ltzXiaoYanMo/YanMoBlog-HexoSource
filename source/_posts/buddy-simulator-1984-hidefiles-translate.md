@@ -2,8 +2,6 @@
 title: 【Buddy Simulator 1984】所有隐藏文件内容【中英双文】
 tags: []
 id: '298'
-categories:
-  - - uncategorized
 date: 2024-06-19 07:02:48
 ---
 

@@ -1,9 +1,7 @@
 ---
 title: Windows 网络验证修改与配置
-tags: []
+tags: 技术分享
 id: '372'
-categories:
-  - - 技术分享
 date: 2024-08-29 08:20:24
 ---
 

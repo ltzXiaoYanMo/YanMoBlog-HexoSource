@@ -2,8 +2,6 @@
 title: 祝浙江中考考生考出自己心想的成绩！
 tags: []
 id: '305'
-categories:
-  - - uncategorized
 date: 2024-06-21 22:34:59
 ---
 

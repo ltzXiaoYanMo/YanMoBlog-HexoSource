@@ -1,9 +1,7 @@
 ---
 title: 利用Linux系统开一个Minecraft服务器
-tags: []
+tags: 技术分享
 id: '30'
-categories:
-  - - 技术分享
 date: 2024-01-17 22:01:25
 ---
 

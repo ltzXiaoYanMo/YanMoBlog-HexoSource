@@ -27,6 +27,9 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+      - name: Setup Redefine Theme config
+        run: | 
+          curl -o ./themes/redefine https://{ secrets.DOMAIN }/_config.yml
       - name: Install Dependencies
         run: npm install
       - name: Build

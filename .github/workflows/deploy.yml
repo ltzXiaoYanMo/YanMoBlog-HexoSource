@@ -1,4 +1,5 @@
-name: deploy
+name: Deploy
+
 on:
   push:
     branches:
@@ -8,13 +9,39 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: SSH and execute command
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Delete Old Articles
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: |
-            cd /root/blog-source
-            bash scripts/update.sh
+            rm -rf /opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/*
           host: ${{ secrets.HOSTS }}
           username: root
           password: ${{ secrets.SSH_PASSWORD }}
           port: 22
+      - name: Upload Server
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: root
+          server: ${{ secrets.HOSTS }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          local_path: './public/*'
+          remote_path: '/opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/'

@@ -29,7 +29,7 @@ tags: 乐子分享
 🤣👉
 
 为此我想问一句：
-![](./images/so-hahaha/comment6.png)
+![](./images/so-hahaha/reply2.png)
 
 ## 骂不过开始装 Bot 了?
 ![](./images/so-hahaha/bot.png)

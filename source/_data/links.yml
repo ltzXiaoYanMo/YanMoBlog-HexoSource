@@ -1,0 +1,40 @@
+- links_category: 朋友们
+  has_thumbnail: false
+  list: 
+    - name: KuoHuBlog
+      link: https://khbit.cn/
+      description: 就一屑站
+      avatar: https://api.ymbit.cn/images/kuohu_favcion.jpg
+
+    - name: Muska_Ami’s Site
+      link: https://1l1.icu
+      description: Keep doing, keep loving
+      avatar: https://blog.1l1.icu/images/avatar.jpg
+
+    - name: Bingxin Home
+      link: https://byteloid.one
+      description: 好久不见
+      avatar: https://blog.byteloid.one/img/march7th.webp
+
+    - name: I‘m Luochancy
+      link: https://www.luochancy.com
+      description: 一个猫猫的博客喵
+      avatar: https://www.luochancy.com/wp-content/uploads/2023/12/1904634_Ehaif6np.png
+
+    - name: 薄荷の小屋
+      link: https://www.hoshiroko.com
+      description: 越是拼命往前伸手，渴望之物越是渐行渐远
+      avatar: https://api.hoshiroko.com/img/avatar.jpg
+
+- links_category: 团队
+  has_thumbnail: false
+  list: 
+    - name: MCSL2
+      link: https://v2.mcsl.com.cn
+      description: 简洁、全能的Minecraft开服器
+      avatar: https://images.mcsl.com.cn/new/MCSL2.webp
+
+    - name: OFS-Team
+      link: https://www.ofs.moe/
+      description: OFS-Team团队主页
+      avatar: https://www.ofs.moe/favicon.ico

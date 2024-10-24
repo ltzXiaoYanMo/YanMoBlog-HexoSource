@@ -43,6 +43,6 @@ tags: 乐子分享
 ![](./images/so-hahaha/lol-cloudflare.png)
 虽然不是有意抹黑 Cloudflare...
 
-不是我说，乐子人的网站都喜欢用 Cloudflare CDN，他们是把他们看成生命的另一半了是吗，但凡 Cloudflare 写错一次路由是不是就要似了？
+不是我说，乐子人的网站都喜欢用 Cloudflare CDN，他们是把 Cloudflare 看成生命的另一半了是吗，但凡 Cloudflare 写错一次路由是不是就要似了？
 
 真有点难绷了🤣👉

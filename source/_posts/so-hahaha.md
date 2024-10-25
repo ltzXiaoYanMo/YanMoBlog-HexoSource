@@ -13,7 +13,7 @@ tags: 乐子分享
 ![](./images/so-hahaha/comment2.png)
 第一次见这种人发情，紫色心情都没心情了，论抽象还是得靠 So 哥撑场面啊🤣👉
 
-这边建议加入美国（抽象）大选，其他人的抽象成都连你尾巴都见不着
+这边建议加入美国（抽象）大选，其他人的抽象程度连你尾巴都见不着
 ![](./images/so-hahaha/reply1.png)
 
 ## 抄袭被发现了
@@ -38,7 +38,7 @@ tags: 乐子分享
 ![](./images/so-hahaha/bot4.png)
 有点难绷了，要不给他个提示词？
 ![](./images/so-hahaha/prompt.jpg)
-不知道的还以为我lib.so 待补哈
+不知道的还以为我 lib.so 运行库没补哈，现在立马去补
 ## 保留节目
 ![](./images/so-hahaha/lol-cloudflare.png)
 虽然不是有意抹黑 Cloudflare...

@@ -28,6 +28,21 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: Verify Hostname Resolution
+        run: |
+          echo "Resolving ${HOST}"
+          nslookup ${HOST}
+        env:
+          HOST: ${{ secrets.HOST }}
+      - name: Write SSH Key
+        run: echo "${DEPLOY_KEY}" | tee ~/.ssh/id_rsa > /dev/null
+        env:
+          DEPLOY_KEY: ${{ secrets.RSYNC_PASSPHRASE }}
+      - name: Test SSH Connection
+        run: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${USER}@${HOST} echo "Test connection successful"
+        env:
+          USER: github_deploy_user
+          HOST: ${{ secrets.HOST }}
       - name: Rsync Files
         uses: contention/rsync-deployments@v2.0.0
         with:

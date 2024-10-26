@@ -29,8 +29,11 @@ jobs:
       - name: Build
         run: npm run build
       - name: Rsync Files
-        uses: contention/rsync-deployments@v1.0.0
-        env:
-          PASSWORD: ${{ secrets.SSH_PASSWORD }}
-        with: 
-          args: "-av ./public/* root@${{ secrets.HOSTS }}:/opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/"
+        uses: contention/rsync-deployments@v2.0.0
+        with:
+          HOST: ${{ secrets.HOST }}
+          USER: github_deploy_user
+          LOCALPATH: ./public/
+          REMOTEPATH: /opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/
+          FLAGS: -avz
+          DEPLOY_KEY: ${{ secrets.RSYNC_PASSPHRASE }}

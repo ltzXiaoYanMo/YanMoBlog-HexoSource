@@ -2,8 +2,6 @@
 title: 关于我-2
 id: '399'
 tags: []
-categories:
-  - - uncategorized
 comments: false
 date: 2024-09-16 23:07:59
 ---

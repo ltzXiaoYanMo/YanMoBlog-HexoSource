@@ -2,8 +2,6 @@
 title: 友人帐
 id: '47'
 tags: []
-categories:
-  - - uncategorized
 date: 2024-01-21 18:36:28
 type: links
 ---

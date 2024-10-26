@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  build:
+  DeployServer:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,20 +28,9 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Delete Old Articles
-        uses: garygrossgarten/github-action-ssh@release
-        with:
-          command: |
-            rm -rf /opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/*
-          host: ${{ secrets.HOSTS }}
-          username: root
-          password: ${{ secrets.SSH_PASSWORD }}
-          port: 22
-      - name: Upload Server
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          username: root
-          server: ${{ secrets.HOSTS }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          local_path: './public/*'
-          remote_path: '/opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/'
+      - name: Rsync Files
+        uses: contention/rsync-deployments@v1.0.0
+        env:
+          PASSWORD: ${{ secrets.SSH_PASSWORD }}
+        with: 
+          args: "-av ./public/* root@${{ secrets.HOSTS }}:/opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/"

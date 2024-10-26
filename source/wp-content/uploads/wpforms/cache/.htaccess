@@ -1,0 +1,16 @@
+
+# BEGIN WPForms
+# 在「BEGIN WPForms」与「END WPForms」之间的指令（行）是
+# 动态生成的，只应被 WordPress 过滤器修改。
+# 任何对标记之间的指令的修改都会被覆盖。
+# Disable access for any file in the cache dir.
+# Apache 2.2
+<IfModule !authz_core_module>
+	Deny from all
+</IfModule>
+
+# Apache 2.4+
+<IfModule authz_core_module>
+	Require all denied
+</IfModule>
+# END WPForms

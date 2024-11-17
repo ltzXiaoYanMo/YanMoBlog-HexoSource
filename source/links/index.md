@@ -21,7 +21,7 @@ type: links
 
 *   你的顶级域名不应为来自freenom免费域名、eu.org的域名，这会拉低你搜索引擎的收录
 *   [SSLLabs](https://www.ssllabs.com/) 或 [MySSL](https://myssl.com) 的评分应在 A 以上（理应来说，如果SSLLabs的评分是A，MySSL的评分也应在 A 以上）
-*   若 MySSL 因 Let's Encrypt 的 E1 加密方式而报T，而源站没有报错误。故第二条的 MySSL 评分不做效，以 SSLLabs 的结果为准
+*   若 MySSL 因 Let's Encrypt 的 E1 加密方式而报 T，而源站没有报错误。故第二条的 MySSL 评分不做效，以 SSLLabs 的结果为准
 *   在中国境内的响应速度在5s以内（指网站返回200ok的响应速度，不是网站加载完成的速度，具体以 DevTools Extension Lighthouse 和实际做对比，海外则以 PageSpeed Insights）
 
 ## 什么时候会被撤下友链
@@ -38,7 +38,7 @@ type: links
 
 ## 如何申请
 
-*   评论底下
+*   评论底下（似乎 waline 炸了，发邮件吧）
 *   发送邮箱至 [yanmo@ymbit.cn](mailto:yanmo@ymbit.cn)（推荐）或 [yanmo233@duck.com](mailto:yanmo233@duck.com) 中
 
 ~~如果你是我好基友的话除友链以上要求你都不需要实行~~

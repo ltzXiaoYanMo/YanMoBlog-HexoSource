@@ -9,6 +9,7 @@ description: '用代码表达言语的魅力，用代码书写山河的壮丽'
 keywords: 'yanmoblog, ymbit'
 author: ltzXiaoYanMo
 language: zh-CN
+# noinspection YAMLSchemaValidation
 timezone: 'Asia/Shanghai'
 
 # URL

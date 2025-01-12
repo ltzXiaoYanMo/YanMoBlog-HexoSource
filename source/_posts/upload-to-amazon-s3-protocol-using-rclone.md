@@ -17,7 +17,7 @@ Amazon Simple Storage Service（Amazon S3）是一种对象存储服务，提供
 
 ### 下载与使用
 ## 下载 Rclone
-可以从 [Rclone](https://rclone.org/downloads/) 下载，选择适合的操作系统的安装包。
+可以从 [Rclone](https://rclone.org/downloads/) 官网下载，选择适合的操作系统的安装包。
 
 但 Rclone 的软件主要以命令行操作，你可以使用 [Windows Terminal](https://www.microsoft.com/zh-cn/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab) 来使用 Rclone.
 
@@ -60,7 +60,7 @@ rclone sync /data/syncfolder Cloudflare-R2:/syncfolder
 ```bash
 rclone copy Aliyun-OSS:/syncfolder Cloudflare-R2:/syncfolder
 ```
-Windows 下可以挂载至本地盘符：
+Windows 下可以挂载至本地盘符（需要[WinFsp](https://winfsp.dev/)）：
 ```bash
 rclone mount Cloudflare-R2:/syncfolder D:
 ```

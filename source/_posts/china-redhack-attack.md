@@ -9,11 +9,11 @@ tags: 杂谈
 视频：
 
 <video width="800" height="600" controls>
-    <source src="https://yanmo-objects.oss-cn-hangzhou.aliyuncs.com/blog-resources/Lunar%20Client%201.8.9%20%28v2.18.0-2447%29%202024-12-08%2016-39-07.mp4" type="video/mp4">
+    <source src="https://hangzhou.aliyun.oss.ymbit.cn/blog-resources/Lunar%20Client%201.8.9%20%28v2.18.0-2447%29%202024-12-08%2016-39-07.mp4" type="video/mp4">
 </video>
 
 <video width="800" height="600" controls>
-    <source src="https://yanmo-objects.oss-cn-hangzhou.aliyuncs.com/blog-resources/Minecraft%202024.12.08%20-%2016.38.59.01.mp4" type="video/mp4">
+    <source src="https://hangzhou.aliyun.oss.ymbit.cn/blog-resources/Minecraft%202024.12.08%20-%2016.38.59.01.mp4" type="video/mp4">
 </video>
 
 坚持与努力， 维普点GG。

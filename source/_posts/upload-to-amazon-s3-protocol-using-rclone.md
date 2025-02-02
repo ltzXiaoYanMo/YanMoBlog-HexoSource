@@ -15,8 +15,8 @@ Amazon Simple Storage Service（Amazon S3）是一种对象存储服务，提供
 很显然，这主要作为一个备份文件所产出来的软件，据他们所说：
 > Rclone是一个命令行程序，用于管理云存储上的文件。它是云供应商Web存储接口的功能丰富的替代品。超过70种云存储产品支持rclone，包括S3对象存储、企业和消费者文件存储服务以及标准传输协议。
 
-### 下载与使用
-## 下载 Rclone
+## 下载与使用
+### 下载 Rclone
 可以从 [Rclone](https://rclone.org/downloads/) 官网下载，选择适合的操作系统的安装包。
 
 但 Rclone 的软件主要以命令行操作，你可以使用 [Windows Terminal](https://www.microsoft.com/zh-cn/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab) 来使用 Rclone.

@@ -61,6 +61,11 @@
       description: 阿巴阿巴…
       avatar: https://static.alongw.cn/avatar/512.png
 
+    - name: 盐木のWebsite
+      link: https://saltwood.top:2333/
+      description: Luctor et emergo.
+      avatar: https://saltwood.top:2333/favicon.ico
+
 
 - links_category: 团队
   has_thumbnail: false

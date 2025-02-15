@@ -39,7 +39,7 @@ comment: true
 
 ## 如何申请
 
-*   评论底下（似乎 waline 炸了，发邮件吧）
+*   评论底下
 *   发送邮箱至 [yanmo@ymbit.cn](mailto:yanmo@ymbit.cn)（推荐）或 [yanmo233@duck.com](mailto:yanmo233@duck.com) 中
 
 ~~如果你是我好基友的话除友链以上要求你都不需要实行~~

@@ -25,7 +25,7 @@ tags: 乐子分享
 还是因为找不到什么话可以聊的吗？有点南坪了🤣👉
 
 ### 怎么死了
-![](./images/loser-msst/807bb3548c01cbc8a0b52bf9bc765f71.jpg)
+![](./images/loser-msst/807bb3548c01cbc8a0b52bf9bc765f71.png)
 自己源站不保护好被打还怪我们，你也是个人物哥们。
 
 最后他们上了 Cloudflare CDN.

@@ -80,7 +80,11 @@
       link: https://www.abjust.fun
       description: 生活本无意义，但人类选择追寻
       avatar: https://www.abjust.fun/upload/b_e04b0924f8e749918b3553c0f04cc099.jpg
-    
+
+    - name: 狐梦小站
+      link: https://www.wfgukasha.club
+      description: 一只狐狸的闲言碎语
+      avatar: https://www.wfgukasha.club/upload/b_a13a9624af27127fd1c6e78082438ed4.jpg 
 
 - links_category: 团队
   has_thumbnail: false

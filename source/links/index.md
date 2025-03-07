@@ -10,9 +10,18 @@ comment: true
 
 要求极为低
 
+> 部分要求会采用[开往项目](https://www.travellings.cn/docs/join.html)的部分要求。
 *   你的友链需在二级页面上
 *   广告、CSS/JS的设置不阻挡用户正常观看
 *   文章/页面等各处能被用户看到的样式内不能有黄赌毒等各种可能被GFW制裁的样式出现
+*   文章量需要 5 篇以上，若没有则会查看**高质量**、**原创**文章。
+
+
+### 关于个人网站
+*   友链内需要在主页面或二级页面上
+*   域名需要经过 ICP 备案或经过萌国 ICP 备案。
+*   添加友链需要在本站[主页面](https://ymbit.cn)上。
+
 
 ## 绝对不允许的
 
@@ -30,7 +39,6 @@ comment: true
 *   主动撤下友链
 *   网站样式过于稀烂（就我这勾史审美，能被因这个原因撤下你也是一表人才）
 *   网站长时间不开启（一般>=一个月）
-*   根据开往项目官方要求：站方网站内不应有关于政治敏感类型存在（包括注释）
 
 ## 若更换了域名应该怎么办
 
@@ -41,8 +49,9 @@ comment: true
 
 *   评论底下
 *   发送邮箱至 [yanmo@ymbit.cn](mailto:yanmo@ymbit.cn)（推荐）或 [yanmo233@duck.com](mailto:yanmo233@duck.com) 中
+*   在 [GitHub](https://github.com/ltzXiaoYanMo/YanMoBlog-HexoSource) 上发送 Pull Requests（友链路径：<https://github.com/ltzXiaoYanMo/YanMoBlog-HexoSource/blob/master/source/_data/links.yml>） 
 
-~~如果你是我好基友的话除友链以上要求你都不需要实行~~
+~~如果你是我好基友的话除友链以上要求你都不需要实行~~，但是若为博客需要至少有两篇原创文章。
 
 ## 本站信息
 

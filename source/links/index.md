@@ -51,7 +51,7 @@ comment: true
 *   发送邮箱至 [yanmo@ymbit.cn](mailto:yanmo@ymbit.cn)（推荐）或 [yanmo233@duck.com](mailto:yanmo233@duck.com) 中
 *   在 [GitHub](https://github.com/ltzXiaoYanMo/YanMoBlog-HexoSource) 上发送 Pull Requests（友链路径：<https://github.com/ltzXiaoYanMo/YanMoBlog-HexoSource/blob/master/source/_data/links.yml>） 
 
-~~如果你是我好基友的话除友链以上要求你都不需要实行~~，但是若为博客需要至少有两篇原创文章。
+~~如果你是我好基友的话除友链以上要求你都不需要实行~~
 
 ## 本站信息
 

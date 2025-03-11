@@ -29,9 +29,9 @@ comment: true
 
 ## 如何提高通过率？
 
-*   你的顶级域名不应为来自freenom免费域名、eu.org的域名，这会拉低你搜索引擎的收录
+*   你的顶级域名不应为来自 freenom 免费域名、github.io 免费域名。若质量高可无视这段要求。
 *   [SSLLabs](https://www.ssllabs.com/) 或 [MySSL](https://myssl.com) 的评分应在 A 以上（理应来说，如果SSLLabs的评分是A，MySSL的评分也应在 A 以上）
-*   若 MySSL 因 Let's Encrypt 的 E1 加密方式而报 T，而源站没有报错误。故第二条的 MySSL 评分不做效，以 SSLLabs 的结果为准
+*   若 MySSL 因 Let's Encrypt 的 E1 加密方式而报 T，而源站没有报错误。故第二条的 MySSL 评分不做效，以 SSLLabs 的结果为准。
 *   在中国境内的响应速度在5s以内（指网站返回200ok的响应速度，不是网站加载完成的速度，具体以 DevTools Extension Lighthouse 和实际做对比，海外则以 PageSpeed Insights）
 
 ## 什么时候会被撤下友链
@@ -48,7 +48,7 @@ comment: true
 ## 如何申请
 
 *   评论底下
-*   发送邮箱至 [yanmo@ymbit.cn](mailto:yanmo@ymbit.cn)（推荐）或 [yanmo233@duck.com](mailto:yanmo233@duck.com) 中
+*   发送邮箱至 [yanmo@ymbit.cn](mailto:yanmo@ymbit.cn) 中
 *   在 [GitHub](https://github.com/ltzXiaoYanMo/YanMoBlog-HexoSource) 上发送 Pull Requests（友链路径：<https://github.com/ltzXiaoYanMo/YanMoBlog-HexoSource/blob/master/source/_data/links.yml>） 
 
 ~~如果你是我好基友的话除友链以上要求你都不需要实行~~
@@ -61,8 +61,10 @@ comment: true
 
 简介：林花谢了春红，太匆匆。无奈朝来寒雨，晚来风。
 
-头像：[http://avatar.ymbit.cn/](https://cravatar.cn/avatar/d03f4b96830060cab36b44646cf426e3)
+头像：<https://avatar.ymbit.cn/>
 
-头像将会重定向至 Cravatar，若不需要重定向可使用https://cravatar.cn/avatar/d03f4b96830060cab36b44646cf426e3
+头像将会根据IP地址信息分 Cravatar 和 Gravatar 链接，若不需要可选择以下链接：
 
-或使用 Gravatar：https://gravatar.com/avatar/34c249b0c5370db242e365fa768dfcc622a6099dadba7af80955ec3b0c978dbb
+Cravatar: <https://cravatar.cn/avatar/d03f4b96830060cab36b44646cf426e3>
+
+Gravatar: <https://gravatar.com/avatar/34c249b0c5370db242e365fa768dfcc622a6099dadba7af80955ec3b0c978dbb>

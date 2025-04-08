@@ -35,9 +35,10 @@ jobs:
       - name: Rsync Files
         uses: contention/rsync-deployments@v2.0.0
         with:
-          HOST: ${{ secrets.HOSTS }}
-          USER: github_deploy_user
-          LOCALPATH: ./public/
-          REMOTEPATH: /opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/
-          FLAGS: -avz
-          DEPLOY_KEY: ${{ secrets.RSYNC_PASSPHRASE }}
+          host: ${{ secrets.HOSTS }}
+          user: github_deploy_user
+          localpath: ./public/
+          remotepath: /opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/
+          flags: -avz
+          deploy_key: ${{ secrets.RSYNC_PASSPHRASE }}
+          excludes: ''

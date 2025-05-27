@@ -1,0 +1,15 @@
+User-agent: *
+Disallow:
+
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.log$
+Disallow: /*.env$
+Disallow: /*.sql$
+Disallow: /*.bak$
+Disallow: /*.swp$
+Disallow: /*.swo$
+Disallow: /wp-content/
+
+# 指定 Sitemap
+Sitemap: https://blog.ymbit.cn/sitemap.xml

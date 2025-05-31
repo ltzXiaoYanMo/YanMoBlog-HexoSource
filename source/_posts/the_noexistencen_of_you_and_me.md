@@ -144,6 +144,9 @@ Tulpa 可以诞生于渴望，但并非仅仅诞生于渴望，甚至可能诞�
 而 Tulpa 莉莉丝，突然讲到乐队，也有可能是以乐队象征关系，也或是缓解 Tulpamancer 的负面情绪。
 
 而这是他们唱的，~~我感觉还挺好听的~~。
+
+（使用iframe接入网易云库，若无法显示请跳转至[网易云主页](https://music.163.com/#/song?id=2697687941)）
+
 <iframe 
     frameborder="no" 
     border="0" 

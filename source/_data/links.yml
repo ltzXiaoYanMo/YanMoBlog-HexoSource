@@ -96,10 +96,11 @@
       avatar: https://www.aehxy.com/wp-content/uploads/2024/02/avatar.jpg
       link: https://www.aehxy.com
 
-    - name: 洛元の小屋
-      description: 洛元の小屋，科技，游戏，生活为主的blog
-      avatar: https://blog.dimeta.top/upload/avatar.jpg
-      link: https://blog.dimeta.top/
+    - name: XieXiLin
+      description: 人生应该删繁留简，任世事摇曳，心始终如莲，安静绽放。
+      avatar: https://cravatar.cn/avatar/2defd5540f480625cf9d09e5d4c3b7c4
+      link: https://www.xiexilin.com
+    
 
 - links_category: 团队
   has_thumbnail: false

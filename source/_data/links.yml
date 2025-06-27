@@ -95,7 +95,11 @@
       description: 若知是梦何须醒，不比真如一相会。
       avatar: https://www.aehxy.com/wp-content/uploads/2024/02/avatar.jpg
       link: https://www.aehxy.com
-    
+
+    - name: 洛元の小屋
+      description: 洛元の小屋，科技，游戏，生活为主的blog
+      avatar: https://blog.dimeta.top/upload/avatar.jpg
+      link: https://blog.dimeta.top/
 
 - links_category: 团队
   has_thumbnail: false

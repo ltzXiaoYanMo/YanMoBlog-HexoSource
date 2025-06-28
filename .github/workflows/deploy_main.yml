@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  DeployServer:
+  DeployMainServer:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -32,7 +32,7 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm run build
-      - name: Rsync to Main Server
+      - name: Rsync to server
         uses: contention/rsync-deployments@v2.0.0
         with:
           host: ${{ secrets.HOSTS }}
@@ -42,12 +42,3 @@ jobs:
           flags: -avz
           deploy_key: ${{ secrets.RSYNC_PASSPHRASE }}
           excludes: ''
-
-      - name: Set up SSH keys
-        uses: webfactory/ssh-agent@v0.5.1
-        with:
-            ssh-private-key: ${{ secrets.RSYNC_PASSPHRASE }}
-
-      - name: Rsync files to Tor Server via SSH
-        run: |
-          rsync -avz --delete ./public/ root@${{ secrets.TOR_HOST }}:/opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/

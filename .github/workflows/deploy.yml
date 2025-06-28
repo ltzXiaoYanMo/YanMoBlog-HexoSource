@@ -46,7 +46,7 @@ jobs:
       - name: Set up SSH keys
         uses: webfactory/ssh-agent@v0.5.1
         with:
-            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+            ssh-private-key: ${{ secrets.RSYNC_PASSPHRASE }}
 
       - name: Rsync files to Tor Server via SSH
         run: |

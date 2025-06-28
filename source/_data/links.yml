@@ -14,7 +14,7 @@
     - name: IcyBlog
       link: https://blog.icybit.cn/
       description: IcyBlog Share My Life
-      avatar: https://static.ick.moe/images/avatar.png
+      avatar: https://q.qlogo.cn/qqapp/102131907/2DC08A0B87B42FC467242BED25261546/100
     
     - name: Bingxin Home
       link: https://byteloid.one
@@ -62,9 +62,9 @@
       avatar: https://static.alongw.cn/avatar/512.png
 
     - name: 盐木のWebsite
-      link: https://saltwood.top:2333/
+      link: https://ski.ink
       description: Luctor et emergo.
-      avatar: https://saltwood.top:2333/favicon.ico
+      avatar: https://saltwood.top:5244/d/友链头像/盐木.jpg
 
     - name: 零狼の小窝
       link: https://zerowolf.cn/
@@ -113,8 +113,3 @@
       link: https://v2.mcsl.com.cn
       description: 简洁、全能的Minecraft开服器
       avatar: https://images.mcsl.com.cn/new/MCSL2.webp
-
-    - name: OFS-Team
-      link: https://www.ofs.moe/
-      description: OFS-Team团队主页
-      avatar: https://www.ofs.moe/favicon.ico

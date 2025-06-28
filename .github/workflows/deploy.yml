@@ -76,6 +76,6 @@ jobs:
           user: github_deploy_user
           localpath: ./public/
           remotepath: /opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/
-          flags: -avz
+          flags: -avz -e "ssh -p 233"
           deploy_key: ${{ secrets.RSYNC_PASSPHRASE }}
           excludes: ''

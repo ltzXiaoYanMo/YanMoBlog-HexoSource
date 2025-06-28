@@ -32,10 +32,21 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm run build
-      - name: Rsync Files
+      - name: Rsync to Main Server
         uses: contention/rsync-deployments@v2.0.0
         with:
           host: ${{ secrets.HOSTS }}
+          user: github_deploy_user
+          localpath: ./public/
+          remotepath: /opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/
+          flags: -avz
+          deploy_key: ${{ secrets.RSYNC_PASSPHRASE }}
+          excludes: ''
+
+      - name: Rsync to Tor Server
+        uses: contention/rsync-deployments@v2.0.0
+        with:
+          host: ${{ secrets.TOR_HOSTS }}
           user: github_deploy_user
           localpath: ./public/
           remotepath: /opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/

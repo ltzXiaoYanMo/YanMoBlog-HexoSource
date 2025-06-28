@@ -72,10 +72,10 @@ jobs:
       - name: Rsync to server
         uses: contention/rsync-deployments@v2.0.0
         with:
-          host: ${{ secrets.TOR_HOSTS }}:233
+          host: ${{ secrets.TOR_HOSTS }}
           user: github_deploy_user
           localpath: ./public/
           remotepath: /opt/1panel/apps/openresty/openresty/www/sites/blog.ymbit.cn/index/
-          flags: -avz
+          flags: -avz -e "ssh -p 233"
           deploy_key: ${{ secrets.RSYNC_PASSPHRASE }}
           excludes: ''

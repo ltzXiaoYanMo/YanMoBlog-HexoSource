@@ -86,4 +86,4 @@ make
 add_header Onion-Location http://ymbitjzgoubbonj65qs3rcw5g6xqcexldrwpf535kgx4qwrg72oiklyd.onion;
 ```
 如果你的 CDN 是 Cloudflare，你可以在 规则-概述-创建规则 中这么填写
-![](.images/create-onion/cloudflare-rules.png)
+![](./images/create-onion/cloudflare-rules.png)

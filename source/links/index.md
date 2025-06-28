@@ -57,6 +57,10 @@ comment: true
 
 链接：https://www.ymbit.cn
 
+博客：https://blog.ymbit.cn
+
+若你的网站位于洋葱网络中，你可以使用 <http://ymbitjzgoubbonj65qs3rcw5g6xqcexldrwpf535kgx4qwrg72oiklyd.onion/>
+
 名称：烟墨的屑站点
 
 简介：林花谢了春红，太匆匆。无奈朝来寒雨，晚来风。

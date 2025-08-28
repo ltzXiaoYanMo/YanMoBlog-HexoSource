@@ -105,6 +105,11 @@
       description: 洛元の小屋，科技，游戏，生活为主的blog
       avatar: https://blog.dimeta.top/upload/avatar.jpg
       link: https://blog.dimeta.top/
+      
+    - name: 羽绵的小窝
+      description: 愿永不忘初心
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2824181493&spec=100
+      link: https://blog.yumian.space/
 
 - links_category: 团队
   has_thumbnail: false

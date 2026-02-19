@@ -9,7 +9,7 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.1.1"
   },
   "dependencies": {
     "hexo": "^8.1.1",
@@ -25,6 +25,9 @@
     "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^1.1.0"
+    "hexo-theme-landscape": "^1.1.0",
+    "string-width": "4",
+    "strip-ansi": "6",
+    "wrap-ansi": "7"
   }
 }

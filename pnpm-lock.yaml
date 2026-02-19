@@ -9,8 +9,11 @@ importers:
   .:
     dependencies:
       hexo:
-        specifier: 8.1.0
-        version: 8.1.0(chokidar@3.6.0)
+        specifier: 8.1.1
+        version: 8.1.1(chokidar@3.6.0)
+      hexo-cli:
+        specifier: 4.3.1
+        version: 4.3.1
       hexo-generator-archive:
         specifier: 2.0.0
         version: 2.0.0
@@ -47,6 +50,9 @@ importers:
       hexo-theme-landscape:
         specifier: 1.1.0
         version: 1.1.0
+      js-yaml:
+        specifier: 4.1.0
+        version: 4.1.0
 
 packages:
 
@@ -327,6 +333,10 @@ packages:
   entities@2.2.0:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
 
+  entities@3.0.1:
+    resolution: {integrity: sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==}
+    engines: {node: '>=0.12'}
+
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
@@ -465,6 +475,11 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
+  hexo-cli@4.3.1:
+    resolution: {integrity: sha512-nYe7yJhXT7MwlDEpIAjneMfz0wnWTdIhRv+cVW2OPTw8JtG2X+8Y/sYhPDvQz/ZqjFRZ4qgiKFXN5orFJ/u1vg==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   hexo-cli@4.3.2:
     resolution: {integrity: sha512-druJeBgLpG9ncDS5AhBHdAXk0G4CFj8Qes09pApyZ6bR+nJW1JYiDMuilhudaKDdq+1l49jWXVTidkcb7p0Jbw==}
     engines: {node: '>=14'}
@@ -544,6 +559,10 @@ packages:
     resolution: {integrity: sha512-l0zkqcg2524KPO84HQe0JROpPlCM/dEnCJaJrZ1qsq+3+/YxhDa0zxiGtUVY1dtrWzOK/V11Zj+UEklhGP8Jeg==}
     engines: {node: '>=12.4.0'}
 
+  hexo-util@2.7.0:
+    resolution: {integrity: sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==}
+    engines: {node: '>=12.4.0'}
+
   hexo-util@3.3.0:
     resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
     engines: {node: '>=14'}
@@ -552,8 +571,8 @@ packages:
     resolution: {integrity: sha512-oXKXBs1HZ2Wu/eq0paAVqtCmAEcqJPZ4xxSVRuwAplm1hFU41Ul53WA5bmYMEz9Dp+OJ/SdchjXRmYlbGJdt3w==}
     engines: {node: '>=18'}
 
-  hexo@8.1.0:
-    resolution: {integrity: sha512-4t7oqGBGDfjCk1oFqJaKrzcWzjS7QlPQrP0PGwvsNeEpwjrSMV4pXlcZ3V49j/LGX2UE2NjtDyiYENBQCZFajw==}
+  hexo@8.1.1:
+    resolution: {integrity: sha512-UnzT4ImjKzMMuVRsvudxrl7MkdZwKe4S9xJN5pQPK9c+K0G+fLFb9kB6CqZZwj2E5ne+QK0ls4XMKqTUbNR3RQ==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -573,6 +592,9 @@ packages:
 
   htmlparser2@6.1.0:
     resolution: {integrity: sha512-gyyPk6rgonLFEDGoeRgQNaEUvdJ4ktTmmUh/h2t7s+M8oPpIPxgNACWa+6ESR57kXstwqPiCut0V8NRpcwgU7A==}
+
+  htmlparser2@7.2.0:
+    resolution: {integrity: sha512-H7MImA4MS6cw7nbyURtLPO1Tms7C5H602LRETv95z1MxO/7CP7rDVROehUYeYBUYEON94NXXDEPmZuq+hX4sog==}
 
   htmlparser2@9.1.0:
     resolution: {integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==}
@@ -651,10 +673,6 @@ packages:
 
   js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
-    hasBin: true
-
-  js-yaml@4.1.1:
-    resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
     hasBin: true
 
   jsdom@20.0.3:
@@ -1332,6 +1350,8 @@ snapshots:
 
   entities@2.2.0: {}
 
+  entities@3.0.1: {}
+
   entities@4.5.0: {}
 
   entities@6.0.1: {}
@@ -1470,6 +1490,19 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
+  hexo-cli@4.3.1:
+    dependencies:
+      abbrev: 2.0.0
+      bluebird: 3.7.2
+      command-exists: 1.2.9
+      hexo-fs: 4.1.3
+      hexo-log: 4.1.0
+      hexo-util: 2.7.0
+      minimist: 1.2.8
+      picocolors: 1.1.1
+      resolve: 1.22.11
+      tildify: 2.0.0
+
   hexo-cli@4.3.2:
     dependencies:
       abbrev: 2.0.0
@@ -1485,7 +1518,7 @@ snapshots:
 
   hexo-front-matter@4.2.1:
     dependencies:
-      js-yaml: 4.1.1
+      js-yaml: 4.1.0
 
   hexo-fs@4.1.3:
     dependencies:
@@ -1593,6 +1626,17 @@ snapshots:
       prismjs: 1.29.0
       strip-indent: 3.0.0
 
+  hexo-util@2.7.0:
+    dependencies:
+      bluebird: 3.7.2
+      camel-case: 4.1.2
+      cross-spawn: 7.0.6
+      deepmerge: 4.3.1
+      highlight.js: 11.11.1
+      htmlparser2: 7.2.0
+      prismjs: 1.30.0
+      strip-indent: 3.0.0
+
   hexo-util@3.3.0:
     dependencies:
       camel-case: 4.1.2
@@ -1613,7 +1657,7 @@ snapshots:
       prismjs: 1.30.0
       strip-indent: 3.0.0
 
-  hexo@8.1.0(chokidar@3.6.0):
+  hexo@8.1.1(chokidar@3.6.0):
     dependencies:
       abbrev: 3.0.1
       bluebird: 3.7.2
@@ -1625,8 +1669,8 @@ snapshots:
       hexo-i18n: 2.0.0
       hexo-log: 4.1.0
       hexo-util: 4.0.0
-      js-yaml: 4.1.1
-      js-yaml-js-types: 1.0.1(js-yaml@4.1.1)
+      js-yaml: 4.1.0
+      js-yaml-js-types: 1.0.1(js-yaml@4.1.0)
       micromatch: 4.0.8
       moize: 6.1.7
       moment: 2.30.1
@@ -1662,6 +1706,13 @@ snapshots:
       domhandler: 4.3.1
       domutils: 2.8.0
       entities: 2.2.0
+
+  htmlparser2@7.2.0:
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 4.3.1
+      domutils: 2.8.0
+      entities: 3.0.1
 
   htmlparser2@9.1.0:
     dependencies:
@@ -1739,16 +1790,12 @@ snapshots:
       filelist: 1.0.4
       minimatch: 3.1.2
 
-  js-yaml-js-types@1.0.1(js-yaml@4.1.1):
+  js-yaml-js-types@1.0.1(js-yaml@4.1.0):
     dependencies:
       esprima: 4.0.1
-      js-yaml: 4.1.1
+      js-yaml: 4.1.0
 
   js-yaml@4.1.0:
-    dependencies:
-      argparse: 2.0.1
-
-  js-yaml@4.1.1:
     dependencies:
       argparse: 2.0.1
 

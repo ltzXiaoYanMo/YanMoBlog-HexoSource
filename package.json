@@ -7,7 +7,9 @@
     "clean": "hexo clean"
   },
   "dependencies": {
-    "hexo": "8.1.0",
+    "hexo": "7.3.0",
+    "hexo-cli": "4.3.1",
+    "js-yaml": "4.1.0",
     "hexo-generator-archive": "2.0.0",
     "hexo-generator-category": "2.0.0",
     "hexo-generator-feed": "3.0.0",

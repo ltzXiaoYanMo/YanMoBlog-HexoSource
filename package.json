@@ -6,6 +6,9 @@
     "build": "hexo generate",
     "clean": "hexo clean"
   },
+  "hexo": {
+    "version": "7.3.0"
+  },
   "dependencies": {
     "hexo": "7.3.0",
     "hexo-cli": "4.3.1",

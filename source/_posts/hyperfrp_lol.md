@@ -213,6 +213,14 @@ tags: 招笑
 
 ![](/images/memes/Snipaste_2026-03-07_00-41-21.png)
 
+## 神人事迹十三，小破公司
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<img src="/images/hyperfrp_lol/rubbish_comapny1.png" style="flex: 1; min-width: 200px; max-width: 100%;"  alt=""/>
+<img src="/images/hyperfrp_lol/rubbish_comapny2.png" style="flex: 1; min-width: 200px; max-width: 100%;"  alt=""/>
+<img src="/images/hyperfrp_lol/rubbish_comapny3.jpg" style="flex: 1; min-width: 200px; max-width: 100%;"  alt=""/>
+</div>
+你都说某某跳动都是破公司了，给你了给你了。我惹不起😅
+
 ## 光速滑跪
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
 <img src="/images/hyperfrp_lol/admit/1.png" style="flex: 1; min-width: 200px; max-width: 100%;"  alt=""/>

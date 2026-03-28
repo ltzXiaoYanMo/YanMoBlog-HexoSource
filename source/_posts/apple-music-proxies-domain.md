@@ -22,7 +22,7 @@ tags: 技术分享
 
 
 ~~`downloaddispatch.itunes.apple.com`虽然在境内有部署服务器，但是自传音乐还是访问缓慢，所以切换海外。不需要可以删除~~
-通过网页端 DevTools 是前三数字加`blobstore.apple.com`z
+通过网页端 DevTools 是`store+三个数字`和`blobstore.apple.com`组合起来主机名
 
 `cabana-server.cdn-apple.com`似乎是同步 Apple Music 资料库同步至 iCloud 域名，且解析在海外。
 

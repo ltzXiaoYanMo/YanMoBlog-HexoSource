@@ -6,7 +6,7 @@ tags: 技术分享
 规则
 ```list
 # Self Upload Music
-- DOMAIN-SUFFIX,downloaddispatch.itunes.apple.com
+- DOMAIN-SUFFIX,blobstore.apple.com
 # Apple Podcasts & Radio
 - DOMAIN-SUFFIX,itsliveradio.apple.com
 # Apple Device Certificate for Podcasts & Radio
@@ -21,9 +21,10 @@ tags: 技术分享
 ```
 
 
-`downloaddispatch.itunes.apple.com`虽然在境内有部署服务器，但是自传音乐还是访问缓慢，所以切换海外。不需要可以删除
+~~`downloaddispatch.itunes.apple.com`虽然在境内有部署服务器，但是自传音乐还是访问缓慢，所以切换海外。不需要可以删除~~
+通过网页端 DevTools 是前三数字加`blobstore.apple.com`z
 
 `cabana-server.cdn-apple.com`似乎是同步 Apple Music 资料库同步至 iCloud 域名，且解析在海外。
-![*.cdn-apple.com](./images/apple-music-proxies-domain/_.cdn.apple.com.png)
+
 
 `homesharing.itunes.apple.com`和`hls-amt.itunes.apple.com`本身是 iTunes Store 的服务，Apple 在国内没有提供这项服务，见仁见智。

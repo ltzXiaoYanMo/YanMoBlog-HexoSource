@@ -26,5 +26,4 @@ tags: 技术分享
 
 `cabana-server.cdn-apple.com`似乎是同步 Apple Music 资料库同步至 iCloud 域名，且解析在海外。
 
-
 `homesharing.itunes.apple.com`和`hls-amt.itunes.apple.com`本身是 iTunes Store 的服务，Apple 在国内没有提供这项服务，见仁见智。

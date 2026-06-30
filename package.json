@@ -10,9 +10,9 @@
     "version": "8.0.0"
   },
   "dependencies": {
-    "hexo": "8.0.0",
-    "hexo-cli": "4.3.2",
-    "js-yaml": "4.1.0",
+    "hexo": "8.1.2",
+    "hexo-cli": "4.3.1",
+    "js-yaml": "4.1.1",
     "hexo-generator-archive": "2.0.0",
     "hexo-generator-category": "2.0.0",
     "hexo-generator-feed": "4.0.0",

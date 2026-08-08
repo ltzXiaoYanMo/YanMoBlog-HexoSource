@@ -11,5 +11,5 @@ Disallow: /*.swp$
 Disallow: /*.swo$
 Disallow: /wp-content/
 
-# 指定 Sitemap
+# Select Sitemap
 Sitemap: https://blog.ymbit.cn/sitemap.xml
